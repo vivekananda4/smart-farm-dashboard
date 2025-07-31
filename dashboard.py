@@ -61,7 +61,7 @@ if data:
     # Metrics row
     # -------------------------------
     col1, col2, col3, col4 = st.columns(4)
-    col1.metric( Temperature (°C)", latest["temperature"])
+    col1.metric("Temperature (°C)", latest["temperature"])
     col2.metric(" Humidity (%)", latest["humidity"])
     col3.metric(" Light (lux)", latest["light"])
     col4.metric(" Soil Moisture (%)", latest["soilMoisture"])
